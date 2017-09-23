@@ -1,0 +1,55 @@
+/* Welcome to GAMESLAB GROUP */
+
+body {
+	background: url("ozadje.png") repeat;
+} 
+
+#glavno {
+	width: 960px;
+	height: 1000px;
+	margin: 20px auto 30px;
+	background: white;
+	box-shadow: 0px 2px 2px 0px;
+	border-radius: 2px;
+}
+
+body #glavno .naslov {
+	border: #006699 2px solid;
+}
+
+body #glavno .naslov h1 {
+	font-family: sans-serif;
+	margin-left: 20px;
+}
+
+body #glavno .naslov h1 span {
+	color: #3399ff;
+}
+
+body #glavno .gumbi {
+	border: #006699 1px solid;
+}
+
+body #glavno .gumbi button {
+	width: 188.4px;
+	height: 100px;
+	border: #006699;
+	cursor: pointer;
+	font-size: 30px;
+}
+
+body #glavno .gumbi button:hover {
+	transition-duration: 0.5s;
+	width: 188.4px;
+	height: 110px;
+	border: #1a1a1a;
+	cursor: pointer;
+	font: white;
+	background-color: #404050; 
+}
+
+body #glavno .gumbi button:hover b {
+	color: white;
+}
+
+
